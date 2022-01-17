@@ -1,0 +1,6 @@
+{
+    "ignore": ["", "node_modules", "extension/dist", ""],
+    "watch": ["electron/src/**/*.ts"],
+    "exec": "cd electron && tsc && cd .. && electron . ",
+    "ext": "js, json, ts, proto"
+  }
